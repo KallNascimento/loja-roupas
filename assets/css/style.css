@@ -1,10 +1,11 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
-:root{
-    --bs-dark:#7F714A;
+
+:root {
+    --bs-dark: #7F714A;
 }
 
-body{
-    background-image: url('../img/vector-silhouette-woman-2.png') ;
+body {
+    background-image: url('../img/vector-silhouette-woman-2.png');
     background-size: 40%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,12 +13,12 @@ body{
     background-position-x: right;
 }
 
-.justify-content-between{
+.justify-content-between {
     display: flex;
     flex-flow: row nowrap;
 }
 
-.justify-content-between a{
+.justify-content-between a {
     display: flex;
     justify-content: center;
     margin-left: 10px;
@@ -27,4 +28,25 @@ body{
     display: flex;
     justify-content: center;
     padding: 0;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.featured {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    color: #f00;
+    animation: blinker 1s step-start infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
 }
