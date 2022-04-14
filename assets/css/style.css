@@ -1,7 +1,7 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 
 :root {
-    --bs-dark: #7F714A;
+    --bs-dark: #E6BA95;
 }
 
 body {
@@ -47,7 +47,7 @@ body {
 }
 
 .pink-box {
-    background-color: rgb(255, 163, 169);
+    background-color: #F3C5C5;
 }
 
 .pink-box label {
@@ -121,4 +121,16 @@ body {
 .accordion-body {
     display: flex;
     flex-flow: row;
+}
+
+.category__items{
+    display: flex;
+    flex-flow: row wrap;
+}
+.category__item img{
+
+}
+
+.category__item span {
+    
 }
