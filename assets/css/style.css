@@ -113,6 +113,14 @@ body {
 .profile-infos-bottom .text {
     font-weight: 200;
 }
+.profile-city-label{
+    background: linear-gradient(90deg, blue,violet);
+    background-clip: text;
+    -webkit-background: linear-gradient(90deg, blue,violet);
+    -webkit-background-clip: text;
+    
+    color: transparent;
+}
 
 .product-thumbnail{
     width: 4rem;
